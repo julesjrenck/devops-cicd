@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout de Código
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       
       - name: Mostrar Mensagem
         run: echo "Olá!"
